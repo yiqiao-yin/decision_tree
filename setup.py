@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-  name='machine_learning_package',
+  name='decision_tree',
   author='Yiqiao Yin',
   version='1.0.0',
   description="Sample python package",
