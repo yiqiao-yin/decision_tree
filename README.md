@@ -1,2 +1,3 @@
-# decision_tree
-Sample package in python
+# Machine Learning Package
+
+This is my sample machine learning package.
