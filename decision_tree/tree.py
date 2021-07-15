@@ -48,7 +48,7 @@ def visualize_tree(dt, data, type=0):
         viz.view()
         
         
- def evaluate(dt, X_test, y_test):
+def evaluate(dt, X_test, y_test):
     print("Score: ", dt.score(X_test, y_test))
     plot_confusion_matrix(dt, X_test, y_test)
     
