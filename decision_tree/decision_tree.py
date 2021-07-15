@@ -35,5 +35,5 @@ def visualize_tree(dt, data, type=0):
                        class_names=data.target_names.tolist())
         
 def evaluate(dt, X_test, y_test):
-    print("Score: ", dt.score(X_test, y_test))
-    plot_confusion_matrix(dt, X_test, y_test)
+   print("Score: ", dt.score(X_test, y_test))
+   plot_confusion_matrix(dt, X_test, y_test)
